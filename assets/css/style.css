@@ -1,0 +1,136 @@
+html{
+	font-family:sans-serif;
+ }
+
+body{
+	color:white;
+	background: #17181c;
+	font-family:Varela Round,sans-serif;
+}
+
+a{text-decoration:none;list-style:none;}
+li{list-style: none;}
+
+.navbar{
+	background: #17181c;
+	padding: 12px 0 12px 0;
+	box-shadow: 2px 2px 7px rgb(236,236,236,0.4);
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.collapse{
+    
+}
+
+.collapse .nav-item{
+	color: wheat;font-weight: 500;padding:0 10px 0 10px;
+}
+
+.collapse .nav-item:hover{
+	opacity: 0.5;
+	border-radius: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: wheat;
+}
+
+.collapse .nav-item .nav-link{
+    text-align: center;
+}
+
+.img-responsive{
+    width:100%;height: 100%;
+}
+
+.carousel-caption h1{
+float: none;
+text-shadow: 3px 4px 5px greenyellow;
+font-weight: normal;
+margin-bottom: 100px;
+line-height: 1.5;
+padding-top: 0;
+color: inherit;
+}
+
+.carousel-caption p{
+	
+	color: #fff;
+    font-weight: bold;
+    line-height: 1.5;
+    text-shadow: 1px 2px 3px red;
+}
+
+#click,#bigteam{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 80px;
+	height: 2px;
+	background: #52d3aa;
+	left:50%;
+	margin-left: -40px;
+	top: 180px;
+	transition: 1s ease;
+	}
+
+main{
+	color: white;
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(255,255,255,0.25),0 10px 10px rgba(255,255,255,0.22);
+}
+
+.footer{
+	color: white;
+}
+
+.footer a{color:silver;opacity: .5;}
+
+.footer a:hover{opacity:1;}
+
+.footer hr{border-top: 1px solid rgb(216, 205, 205);}
+
+.footer #copyright{text-align: center;}
+
+.footer .col{
+	display: block;
+	position:relative;
+	width:100%;
+	min-height:1px;
+	padding-right:0px;
+	padding-left:0px;
+}
+
+/*-------------------------------------------*/
+
+@media(max-width:762px){
+	#click {
+		left:53.25%;
+		width: 60px;
+		top: 130px;     
+	   }
+	#bigteam{display: none;}
+	#footertext h2{
+		font-size: 25px;
+	}
+	
+	.footer .col{min-width:100%;}
+	.footer #copyright{padding-bottom: 50px;}
+}
+@media(min-width:960px){
+	#bigteam{display: block;}
+	#click{display: none;}
+}
+
+/*------- blogs -----------------------*/
+
+.blogs .col-10.offset-1.blog-info {
+    margin-top: -70px;
+    background: #fff;
+    padding: 15px 20px;
+}

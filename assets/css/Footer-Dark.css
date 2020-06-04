@@ -1,0 +1,168 @@
+
+    .osdevsite-linkboxes-all-backup.osdevsite-linkboxes-with-sites {
+          background: linear-gradient(90deg,#303c42 50%,#37424b 50%);
+    }
+    .osdevsite-linkboxes {
+        font: 14px/16px Roboto,sans-serif;
+    }
+    footer{
+      display: block;
+  }
+  .osdevsite-linkboxes>.osdevsite-width {
+        max-width: 100%;
+    }
+    .osdevsite-width, .devsite-toast-fill {
+        margin: 0 auto;
+    max-width: 100%;
+    }
+    footer ul {
+        list-style: disc outside;
+        overflow-x: hidden;
+    }
+    .osdevsite-linkboxes-list {
+        display: -ms-flexbox;
+        display: flex;
+        padding: 0;
+        width: 100%;
+    }
+    footer ul{
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+    .osdevsite-linkbox:first-child {
+         padding-left: 24px;
+    }
+    .osdevsite-linkbox-backup {
+         background: #303c42;
+    }
+.osdevsite-linkbox {
+    background: #263238;
+    display: block;
+    -ms-flex: 1 0 25%;
+    flex: 1 0 25%;
+    margin: 0;
+    padding: 24px 0px 32px;
+
+}
+.osdevsite-linkbox-logo-link {
+    border-bottom: 1px solid #455a64;
+    display: block;
+    margin: 0 0px 12px -20px;
+    padding: 0 0 16px 20px;
+}
+
+.osdevsite-linkbox-logo {
+    margin: -5px 0 0;
+    max-width: 216px;
+    width: 100%;
+    vertical-align: top;
+}
+footer img{
+    border: 0;
+    max-width: 100%;
+}
+
+footer li {
+  margin: 8px 0;
+    padding: 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+footer h3 {
+  overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.osdevsite-linkbox-heading {
+    color: #fff;
+    font: 700 14px/16px Roboto,sans-serif;
+    margin: 0 0 8px;
+}
+.osdevsite-linkbox-list {
+    list-style-type: none;
+    padding: 0;
+}
+.osdevsite-item {
+    margin: 0 20px 15px 0;
+}
+.osdevsite-item a {
+    color: silver;
+    display: block;
+    padding: 0px 0;
+}
+
+
+.osdevsite-item a:hover{
+  color: white;
+
+}
+
+.osdevsite-linkbox:last-child {
+    padding-right: 0px;
+}
+.osdevsite-linkbox-sites {
+    background: #37424b;
+    margin-left: 20px;
+}
+.osdevsite-linkboxes-list .osdevsite-linkbox.osdevsite-linkbox-backup{
+  width: 25%;
+}
+
+.footer-dark #term{
+  margin-top:-15px;
+  background: #455a64;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 22px;
+}
+
+.footer-dark a{
+  margin:0 10px 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-dark a:hover{
+  color: greenyellow;
+}
+
+.footer-dark span{
+  color: white;
+}
+
+.footer-dark #newsletter{
+  float: right;
+  margin-right:20px;
+}
+
+.footer-dark #subscribe{
+  background:#00BFFF;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+}
+
+.footer-dark #subscribe:hover{
+  background: #1E90FF; 
+  color:white;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding:20px 0 20px 0;
+  opacity:0.5;
+  font-size:13px;
+  margin-bottom:0;
+}
